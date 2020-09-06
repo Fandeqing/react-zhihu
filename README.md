@@ -52,13 +52,14 @@
 
 ## 屏幕截图
 <p align="center">
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/01_home.png"  height="680px" alt="index" />
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/02_commentPop.png"  height="680px" alt="commentPop" />
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/03_comment.png"  height="680px" alt="comment" />
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/04_hotList.png"  height="680px" alt="hotList" />
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/05_hotBar.png"  height="680px" alt="hotBar" />
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/06_video.png"  height="680px" alt="video" />
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/07_videoRec.png"  height="680px" alt="videoRec" />
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/08_answer.png"  height="680px" alt="answer" />
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/09_answerRec.png"  height="680px" alt="answerRec" />
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/10_question.png"  height="680px" alt="question" /> </p>
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/01_home.png"  width="600px" alt="index" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/02_commentPop.png"  width="600px" alt="commentPop" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/03_comment.png"  width="600px" alt="comment" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/04_hotList.png"  width="600px" alt="hotList" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/05_hotBar.png"  width="600px" alt="hotBar" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/06_video.png"  width="600px" alt="video" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/07_videoRec.png"  width="600px" alt="videoRec" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/08_answer.png"  width="600px" alt="answer" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/09_answerRec.png"  width="600px" alt="answerRec" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/10_question.png"  width="600px" alt="question" />      
+</p>
