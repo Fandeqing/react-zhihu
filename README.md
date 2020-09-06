@@ -52,7 +52,7 @@
 
 ## 屏幕截图
 <p align="center">
-    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/01_home.png"  width="700px" alt="index" />
+    <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/01_home.png"  width="900px" alt="index" />
     <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/02_commentPop.png"  width="700px" alt="commentPop" />
     <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/03_comment.png"  width="700px" alt="comment" />
     <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/04_hotList.png"  width="700px" alt="hotList" />
