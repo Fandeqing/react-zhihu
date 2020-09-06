@@ -41,14 +41,9 @@
 ### `npm install`
 安装项目依赖包
 
-### `npm run dev`
+### `npm run start`
 运行开发环境
 
-### `npm run build`
-打包客户端和服务端，运行生产环境前必须先打包
-
-### `npm run start`
-运行生产环境
 
 ## 屏幕截图
 <p align="center">
