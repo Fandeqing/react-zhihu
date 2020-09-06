@@ -1,6 +1,4 @@
 # react-zhihu
-知乎web pc端部分页面仿写
-# react-zhihu
 仿写知乎web部分页面-PC端
 
 > 前端小白求内推 微信fandeqing0217
