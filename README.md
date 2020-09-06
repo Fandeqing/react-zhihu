@@ -52,5 +52,5 @@
 
 ## 屏幕截图
 <p align="center">
-  
+      <img src="https://github.com/Fandeqing/static-resource/blob/master/screenshots/01_home.png" width="326px" height="680px" alt="index" />
 </p>
