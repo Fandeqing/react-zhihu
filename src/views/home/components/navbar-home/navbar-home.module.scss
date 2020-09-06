@@ -1,0 +1,65 @@
+
+.navBar{
+    // border:1px solid red;
+    width: 296px;
+    height: 100%;
+    position: fixed;
+    top:52px;
+    left:0px;
+    padding-top: 18px;
+    display: block;
+    background-color: #FFFFFF;
+
+    @media only screen and (max-width: 1316px) {
+        width:148px;
+    }
+
+    .link{
+        // border:1px solid green;
+        height: 52px;
+        margin: 0 10px;
+        padding-left: 23px;
+        color: #8590A6;
+        text-decoration: none;
+
+        display: flex;
+        align-items: center;
+
+        & svg{
+            width: 28px;
+            height: 28px;
+            margin-right: 18px;
+        }
+
+        &:hover{
+            cursor: pointer;
+        }
+
+    }
+
+    .active{
+            color: #0084FF;
+            background-color: rgba(0,132,255,0.08);    
+    }
+
+
+    .line{
+        width: 100%;
+        background-color: #EBEBEB;
+        margin-top: 18px;
+        height: 1px;
+        display: block;
+    }
+
+    .moreContent{
+        color: #8590A6;
+        margin-top: 27px;
+        padding-left: 30px;
+
+        @media only screen and (max-width: 1316px) {
+            display: flex;
+            flex-direction: column;        
+        }
+    }
+
+}

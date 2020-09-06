@@ -1,0 +1,32 @@
+
+
+    .author{                    
+        display: flex;
+        align-items: center;
+
+        .avator{
+            margin-top: 6px;
+            height: 24px;
+            width: 24px;   
+            border-radius: 2px;
+            cursor: pointer;
+        }
+
+        .authorName{
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            font-size: 15px;
+            margin-left: 10px;
+
+        }
+
+        .authorHeadline{
+            text-decoration: none;
+            overflow: hidden;
+            color: #646464;
+            text-overflow: ellipsis;
+            white-space: normal;
+            font-size: 14px;
+        }
+    }

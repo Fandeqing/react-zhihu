@@ -1,0 +1,14 @@
+*
+// *::before,
+// *::after 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: #f6f6f6;
+}

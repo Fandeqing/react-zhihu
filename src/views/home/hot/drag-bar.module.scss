@@ -1,0 +1,164 @@
+
+.navPad{
+    // border: 1px solid red;
+    padding:18px 20px 22px 20px;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+}
+
+.navPadMineTop{
+    // border: 1px solid red;
+    margin-bottom: 18px;
+
+    display: flex;
+    .navPadText{
+        .navPadTitle{
+            font-size: 16px;
+            font-weight: 600;
+            color: #444;
+        }
+        .navPadHint{
+            font-size: 16px;
+            color: #999;
+            margin-left:16px;
+        }
+
+    }
+    .btn{
+        outline: none;
+        margin-left: auto;
+        border: 1px solid;
+        line-height: 26px;
+        width: 48px;
+        height: 26px;
+        border-radius: 15px;
+        font-size: 12px;
+        color: #8590a6;
+        background-color: transparent;
+    }
+}
+
+.navPadMineDrop{
+    // border: 1px solid blue;
+    margin-bottom: 8px;
+
+    .navPadMineWrap{
+        // border: 1px solid lightblue;
+        padding-bottom: 19px;
+
+        display: flex;
+        flex-wrap: wrap;
+        .navPadMineItem{
+            border-radius: 2px;
+            // border: 1px solid lightgreen;
+            height: 30px;
+            line-height: 20px;
+            color: #646464;
+            background-color: #f6f6f6;
+            padding:5px 20px;
+            margin: 5px 4px 11px 4px;
+
+
+        }
+
+        .isActive{
+            // border: 1px solid red;
+            font-weight: 500;
+            color: #0084ff;
+            background-color: rgba(0,132,255,.1);
+        }
+    }
+}
+
+
+.navPadRecTop{
+    // border: 1px solid red;
+    margin-bottom: 18px;
+
+    display: flex;
+    .navPadText{
+        .navPadTitle{
+            font-size: 16px;
+            font-weight: 600;
+            color: #444;
+        }
+        .navPadHint{
+            font-size: 16px;
+            color: #999;
+            margin-left:16px;
+        }
+
+    }
+    .btn{
+        margin-left: auto;
+        border: 1px solid;
+        line-height: 26px;
+        width: 48px;
+        height: 26px;
+        border-radius: 15px;
+        font-size: 12px;
+        color: #8590a6;
+        background-color: transparent;
+    }
+}
+
+.navPadRecBot{
+    // border: 1px solid red;
+
+    display: flex;
+    justify-content: flex-end;
+    .btnWrap{
+
+        .btnCancel{
+            cursor: pointer;
+            outline: none;
+            padding: 0 16px ;
+            line-height: 32px;
+            font-size: 14px;
+            color: #8590a6;
+            border: 1px solid #8590a6;
+            border-radius: 3px;
+            background-color: initial;
+        }
+        .btnConfirm{
+            cursor: pointer;
+            outline: none;
+            border-radius: 3px;
+            border: 1px solid #0084ff;
+            background-color: #0084ff;
+            color: #fff;
+            margin-left: 16px;
+            padding: 0 16px;
+            line-height: 32px;
+            font-size: 14px;
+        }
+    }
+}
+
+.navPadRecDrop{
+    // border: 1px solid blue;
+    margin-bottom: 8px;
+
+    .navPadRecWrap{
+        // border: 1px solid lightblue;
+        padding-bottom: 19px;
+
+        display: flex;
+        flex-wrap: wrap;
+        .navPadRecItem{
+            border-radius: 2px;
+            // border: 1px solid lightgreen;
+            height: 30px;
+            line-height: 20px;
+            color: #646464;
+            background-color: #f6f6f6;
+            padding:5px 20px;
+            margin: 5px 4px 11px 4px;
+
+        }
+    }
+}

@@ -1,0 +1,78 @@
+
+.wrapper{
+    color: #646464;
+    padding:10px 20px;
+    margin:0 -20px;
+    clear: both;
+
+    display: flex;
+    align-items: center;
+
+    .btnWrapper{
+        flex-shrink: 0;
+        // cursor: pointer;
+
+        & button{
+            outline: none;
+            cursor: default;
+            border: none;
+            line-height: 30px;
+            color: #0084ff;
+            padding:0 12px;
+            font-size: 14px;
+            background: rgba(0,132,255,.1);
+        }
+        & button:hover{
+            background-color: rgba(0,132,255,.15);
+        }
+        .vodeUp{
+            width: 15px;
+            margin-right: 4px;
+        }
+        .vodeDown{
+            margin-left: 4px;
+        }
+    }
+
+    .btn{
+        outline: none;
+        cursor: default;
+        margin-left: 24px;
+        flex-shrink: 0;
+        background-color: transparent;
+        border: none;
+        font-size: 14px;
+        line-height: 32px;
+        color: #8590a6;
+        text-align: center;
+
+        display: flex;
+
+        .icon{
+            height: auto;
+            margin-top: 3px;
+            align-items: flex-end;
+            margin-right: 4px;
+        }
+    }
+    .btn:hover{
+        color: grey;
+    }
+
+    .collapseBtn{
+        margin-left: auto;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.fix{
+    width: 654px;
+    background: #fff;
+    box-shadow: 0 -1px 3px rgba(26,26,26,.1);
+    position: fixed;
+    bottom: 0px;
+
+}

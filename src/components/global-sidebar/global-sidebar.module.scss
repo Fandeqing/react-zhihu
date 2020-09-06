@@ -1,0 +1,172 @@
+
+.sideBar{
+
+    .cardWrite{
+        margin-bottom: 10px;
+    }
+
+    .cardWriteTop{
+        font-size: 12px;
+        padding: 20px 15px;
+        background: #fff;
+        border-bottom: 1px solid #f6f6f6;
+
+        display: flex;
+        justify-content: space-around;
+
+
+        .cardWriteTopItem{
+
+            display: flex;
+            flex-direction: column;
+
+            & svg{
+                margin-bottom: 12px;
+            }
+
+        }
+    }
+
+    .cardWriteBottom{
+        background: #fff;
+
+        display: flex;
+        .cardWriteBotTitle{
+            flex:1;
+            margin: 16px 0;
+            text-align: center;
+            font-size: 14px;
+            color: #8590a6;
+            border-right: 1px solid #f6f6f6;
+        }
+
+    }
+
+        .cardCreator{
+            background-color: #fff;
+            margin-bottom: 10px;
+
+            .cardCreatorWrapper{
+                height: 52px;
+                padding: 0px 17px;
+                
+                display: flex;
+                align-items: center;
+
+                & svg:first-child{
+                    height: 18px;
+                    width: 18px;
+                    color: #8590a6;
+                }
+
+                & svg:last-child{
+                    height: 24px;
+                    width: 24px;
+                }
+
+                .cardCreatorTitle{
+                    flex:1 1;
+                    margin-left: 6px;
+
+                    display: flex;
+                    justify-content: space-between;
+
+
+                    & span:first-child{
+                        color: #8590a6;
+                        font-size: 14px;
+                    }
+                    & span:last-child{
+                        color: rgb(0, 132, 255);
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .category{
+            background-color: #fff;
+            padding:20px 10px 0;
+            // margin:0 -5px;
+            margin-bottom: 10px;
+
+            .categoryWrapper{
+                list-style: none;
+                margin-bottom: 0;
+
+                display: flex;
+                flex-wrap: wrap;
+            }
+                .categoryItem{
+                    flex-basis: 33%;
+                    margin-bottom: 25px;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .categorySvg{
+                        margin-bottom: 10px;
+
+                        svg{
+                            height: 24px;
+                            width: 24px;
+                        }
+                    }
+                }
+
+                    .categoryItem:nth-child(1){
+                        color: rgb(255, 207, 0);
+                    }
+
+                    .categoryItem:nth-child(2){
+                        color: rgb(67, 212, 128);
+                    }
+
+                    .categoryItem:nth-child(3){
+                        color: rgb(0, 132, 255);
+                    }
+
+                    .categoryItem:nth-child(4){
+                        color: rgb(0, 132, 255);
+                    }
+
+                    .categoryItem:nth-child(5){
+                        color: rgb(88, 104, 209);
+                    }
+
+                    .categoryItem:nth-child(6){
+                        color: rgb(88, 104, 209);
+                    }
+
+                    .categoryTitle{
+                        font-size: 15px;
+                        color: #8590a6;
+                        line-height: inherit;
+                    }
+
+                    .categoryItem:nth-child(1):hover  .categoryTitle{
+                        color: rgb(255, 207, 0);
+                    }
+                    .categoryItem:nth-child(2):hover .categoryTitle{
+                        color: rgb(67, 212, 128);
+                    }
+                    .categoryItem:nth-child(3):hover .categoryTitle{
+                        color: rgb(0, 132, 255);
+                    }
+                    .categoryItem:nth-child(4):hover .categoryTitle{
+                        color: rgb(0, 132, 255);
+                    }
+                    .categoryItem:nth-child(5):hover .categoryTitle{
+                        color: rgb(88, 104, 209);
+                    }
+                    .categoryItem:nth-child(6):hover .categoryTitle{
+                        color: rgb(88, 104, 209);
+                    }
+
+                
+
+            
+        }
+
+
+}

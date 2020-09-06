@@ -1,0 +1,142 @@
+
+.comment{
+    border:  1px solid #ebebeb;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    margin-top: 12px;
+    border-radius: 4px;
+    // height: 3000px;
+    background-color: #fff;
+
+}
+
+.topBar{
+    height: 50px;
+    padding: 0 20px;
+    border-bottom: 1px solid #f6f6f6;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .topBarTitle{
+        flex-grow: 1;
+
+        h2{
+            font-size: 15px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+    }
+
+    .topBarOption{
+        .btn{
+            border: none;
+            background-color: transparent;
+            font-size: 14px;
+            color: #8590a6;
+            text-align: center;
+            cursor: pointer;
+
+            svg{
+                margin-right: 4px;
+                position: relative;
+                top:3px;
+            }
+        }
+    }
+}
+
+.commentList{
+
+    .commentItem{
+        list-style: none;
+        display: relative;
+        margin-top: -0px;
+
+        .childComment{
+            padding-left: 33px;
+        }
+    
+        .commentBtnWrap{
+            margin-top: -5px;
+            padding: 12px 20px 12px 84px;
+
+            button{
+                outline: none;
+                border: none;
+                background-color: transparent;
+                color: #8590a6;
+                font-size: 14px;
+                cursor: pointer;
+                height: auto;
+            }
+        }
+
+    }
+
+
+
+}
+
+.paginationWrap{
+    border: 1px solid rgb(235, 235, 235);
+    text-align: center;
+    margin: 0 auto;
+    padding: 16px 20px;
+
+    .pagination{
+        //修改antd组件样式 
+        :global{
+            .ant-pagination-disabled{
+                display: none;
+            }
+            .ant-pagination-prev,.ant-pagination-next{
+                a{
+                    color: rgb(26, 26, 26);
+                    background-color: transparent;
+                }
+            }
+            .ant-pagination-options{
+                display: none;
+            }
+
+            .ant-pagination-item{
+                border: none;
+                font-size: 14px;
+                color: rgb(26, 26, 26);
+            } 
+            .ant-pagination-item-active{
+                color: rgb(133, 144, 166);
+            }
+            
+            //ant-pagination-item-4 ant-pagination-item-active
+
+        }
+    }
+}
+
+.btnClose{
+    cursor: pointer;
+    outline: none;
+    position: fixed;
+    opacity: 0;
+    bottom: 30px;
+    left:673px;
+    opacity: 0;
+    transition: opacity .7s;
+    height: 30px;
+    width: 100px;
+    border: none;
+    margin-left: -93px;
+    color: #8590a6;
+    background: hsla(0,0%,92.2%,.95);
+    padding-left: 13px;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.showBtn{
+    opacity: 1;
+}

@@ -1,0 +1,117 @@
+
+
+
+.commentEdit{
+    // border:1px solid red;
+    border-top: 1px solid #ebebeb;
+    padding: 12px 20px;
+    position: relative;
+    transition: margin-right .3s ease;
+
+    display: flex;
+
+    .commentEditWrap{
+        flex:1 1;
+        margin: 0;
+        border:1px solid hsl(0, 0%, 92%);
+
+        display: flex;
+        align-items: flex-end;
+
+        .commentEditInner{
+            position: relative;
+            padding: 6px 12px;
+            flex-grow: 1;
+
+                .textarea{
+                    word-break: break-word;
+                    display: block;
+                    width: 100%;
+                    resize: both;
+                    font-size: 15px;
+                    line-height: 1.6;
+                    outline: none;
+                    user-select: text;
+                    white-space: pre-wrap;
+                    overflow-wrap:break-word ;
+                    cursor: text;
+                }
+
+                .textarea:empty::before {
+                    content: "写下你的评论...";
+                    color: gray;
+                  }
+    
+            }
+
+        .icon{
+            background-color: #f6f6f6;
+            height: 36px;
+            
+            display: flex;
+            align-items: center;
+
+            .iconBtn{
+                height: 24px;
+                width: 24px;
+                margin-right: 12px;
+                border: none;
+                background: none;
+
+                svg{
+                    color: #8590a6;
+                    margin-left: 2px;
+                    
+                }
+            }
+        }
+
+    }
+    .wrapShow{
+        margin-right: 65px;
+        border: 1px solid rgb(133, 144, 166);
+
+        .icon{
+            background-color: #fff;
+
+            svg{
+                color: #8590a6;
+                margin-left: 2px;
+                
+            }
+        }
+        
+    }
+
+
+
+    .btn{
+        position: absolute;
+        bottom: 13px;
+        right: 16px;
+        display: inline-block;
+        transform: scale(0);
+        cursor: not-allowed;
+        background-color: #0084ff;
+        color: #fff;
+        line-height: 34px;
+        transition: opacity .3s ease,transform .3s ease,-webkit-transform .3s ease;
+        border: 1px solid;
+        padding: 0 16px;
+        border-radius: 3px;
+        margin-right: -5px;
+        margin-left: 15px;
+        opacity:.5;
+        pointer-events: none;
+    }
+
+    
+    .show{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+
+
+}
+

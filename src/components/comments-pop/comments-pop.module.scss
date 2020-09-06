@@ -1,0 +1,93 @@
+
+.modalWrap{
+    opacity: 0;
+    transition: opacity .3s ease-out;
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index: 200;
+
+    // background-color: burlywood;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .modalBack{
+        height: 100%;
+        position: absolute;
+        top:0;
+        left:0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        background-color: rgba(26,26,26,.65);
+    }
+
+    .modalContent{
+        position: relative;
+        z-index: 1;
+        width: 688px;
+        height: calc(100vh - 48px);
+        margin:0 auto ;
+        box-shadow: 0 5px 20px rgba(26,26,26,.1);
+
+        .modalInner{
+            height: 100%;
+            overflow: scroll;
+            background-color: #fff;
+
+            .topBar{
+                height: 50px;
+                background-color: rgb(255, 255, 255);
+                padding: 0 20px;
+
+                display: flex;
+                align-items: center;
+
+                .titleWrap{
+                    line-height: 1.7;
+                    flex-grow: 1;
+                  .title{
+                        margin: 0;
+                        font-size: 15px;
+                        font-weight: 600;
+                        color: rgb(26, 26, 26);
+                    }
+                }
+            }
+
+            .divider{
+                display: block;
+                height: 10px;
+                background-color:rgb(246, 246, 246) ;
+            }
+            
+        }
+
+        .btnClose{
+            cursor: pointer;
+            outline: none;
+            border: 1px solid red;
+            position: absolute;
+            top:8px;
+            right: -60px;
+            padding: 12px;
+            background-color: transparent;
+            border: 0;
+
+            svg{
+                fill: #fff;
+            }
+        }
+
+    }
+
+
+}
+
+.showPop{
+    opacity: 1;
+}

@@ -1,0 +1,326 @@
+.header{
+    // border: 1px solid blue;
+    min-width: 1032px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    z-index: 100;
+    height: 55px;
+    overflow: hidden;
+
+    .navBar{
+        // border: 1px solid red;
+        width: 1000px;
+        box-sizing: border-box;
+        padding: 0 16px;
+        margin-right: 0;
+        margin:0 auto;
+        transition: transform .3s;
+
+        display: flex;
+
+        .logo{
+            // border: 1px solid lightcoral;
+            width: 64px;
+            height: 33px;
+            margin:auto 0;
+        }
+
+        .tab{
+            // border: 1px solid blue;
+            list-style: none;
+            margin: 0 23px;
+            padding: 0;
+
+            display: flex;
+
+            .tabItem{
+                padding: 0 17px;
+                height: 50px;
+
+                display: flex;
+                align-items: center;
+                
+                .tabLink{
+                    font-size: 15px;
+                    color: #8590a6;
+                    display: inline-block;
+                    text-emphasis: none;
+                    text-decoration: none;
+                }
+                .active{
+                    font-weight: 600;
+                    color: #444;
+
+                }
+            }
+        }
+
+        .searchBar{
+            display: flex;
+
+            .searchWraper{
+                border: 1px solid #ebebeb;
+                position: relative;
+                width: 324px;
+                background-color: #f6f6f6;
+                height: 32px;
+                margin: auto 0;
+                transition: all .3s;
+
+                display: flex;
+                align-items: center;
+                .form{
+                    flex: 1 1;
+                }
+
+                .searchForm{
+                    // border: 1px solid red;
+                    padding: 4px,0px;
+                    padding-left: 5px;
+                    
+                    display: flex;
+                    align-items: center;
+                    .searchinput{
+                        outline: none;
+                        height: 24px;
+                        flex: 1 1;
+                        background-color: transparent;
+                        border: none;
+                    }
+
+                    .searchIcon{
+                        position: relative;
+                        // border: 1px solid red;
+                        width: 18px;
+                        height: 18px;
+                        margin-left: 12px;
+                        padding: 0 12px;
+                        line-height: 32px;
+                        background: transparent;
+                        border: none;
+
+                        & svg{
+                            position: absolute;
+                            top: 50%;
+                            left:50%;
+                            margin-left: -50%;
+                            margin-top: -30%;
+                        }
+                    }
+                    .focusedInputBtn{
+                        color: #0084ff;
+                    }
+                }
+            }   
+
+            .focusedInput{
+                width: 400px;
+                background: transparent;
+                border-color: #8590a6;
+            }
+            .searchButton{
+                border-radius: 3px;
+                color:#fff;
+                background-color: #0084ff;
+                padding: 0 14px;
+                border-color: #0084ff;
+                text-align: center;
+                height: 32px;
+                margin:auto 0;
+                margin-left: 16px;
+                display: inline-block;
+                transition: all .2s;
+            }
+
+            .focusedSearchBtn{
+                transform: scaleX(0);
+                opacity: 0;
+            }
+
+        }
+
+        .userInfo{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            flex:1 1;
+
+            .infoWraper{
+                position: relative;
+                display: inline-block;
+
+                .infoBtn{
+                    padding: 0;
+                    border: none;
+                    background-color: transparent;
+                    margin-right: 40px;
+                }
+            }
+            .messageWraper{
+                position: relative;
+                display: inline-block;
+
+                .messageBtn{
+                    padding: 0;
+                    border: none;
+                    background-color: transparent;
+                    margin-right: 40px;
+                }
+            }
+
+            .headerPic{
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+    }
+    .scrollUp{
+        transform: translateY(-100%);
+    }
+
+    .navBarBot{
+        width: 1000px;
+        box-sizing: border-box;
+        height: 52px;
+        padding: 0 16px;
+        margin-right: 0;
+        margin:0 auto;
+        transition: transform .3s;
+
+        display: flex;
+        .logo{
+            // border: 1px solid lightcoral;
+            width: 64px;
+            height: 33px;
+            margin:auto 0;
+        }
+        .tab{
+            // border: 1px solid blue;
+            list-style: none;
+            margin: 0 23px;
+            padding: 0;
+
+            display: flex;
+
+            .tabItem{
+                padding: 0 17px;
+                height: 50px;
+
+                display: flex;
+                align-items: center;
+                
+                .tabLink{
+                    font-size: 15px;
+                    color: #8590a6;
+                    display: inline-block;
+                    text-emphasis: none;
+                    text-decoration: none;
+                }
+                .active{
+                    font-weight: 600;
+                    color: #444;
+
+                }
+            }
+        }
+        .navBarTitle{
+            margin-left: 20px;
+            // border: 1px solid red;
+            
+            display: flex;
+            .link{
+                // border: 1px solid red;
+                color: #1a1a1a;
+                margin: 0 22px;
+                font-size: 16px;
+            
+                display: flex;
+                align-items: center;
+            }
+            .active{
+                color: #0084ff;
+                font-weight: 500;
+            
+            }
+        }
+        .searchBarBot{
+            margin-left: auto;
+            // border: 1px solid red;
+
+            display: flex;
+            .searchWraperBot{
+                position: relative;
+                width: 324px;
+                background-color: #f6f6f6;
+                height: 32px;
+                margin: auto 0;
+
+                .formBot{
+                    // border: 1px solid red;
+                }
+
+                .searchFormBot{
+                    padding: 4px,0px;
+                    padding-left: 12px;
+                    
+                    display: flex;
+                    align-items: center;
+                    .searchinputBot{
+                        outline: none;
+                        flex: 1 1;
+                        height: 24px;
+                        line-height: normal;
+                        background-color: transparent;
+                        border: none;
+                    }
+
+                    .searchIconBot{
+                        width: 18px;
+                        height: 18px;
+                        padding: 0 12px;
+                        line-height: 32px;
+                        border:none;
+                    }
+
+                }
+            }   
+            .searchButtonBot{
+                border-radius: 3px;
+                color:#fff;
+                background-color: #0084ff;
+                padding: 0 14px;
+                border-color: #0084ff;
+                text-align: center;
+                height: 32px;
+                margin:auto 0;
+                margin-left: 16px;
+
+            }
+
+        }
+    }
+}
+
+.navBarStick{
+    border: 1px solid red;
+    position: relative;
+    height: 55px;
+    top:0;
+    left:0;
+    width: 100%;
+}
+
+.fixed{
+    // border: 1px solid red;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    min-width: 1032px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    z-index: 100;
+}
+

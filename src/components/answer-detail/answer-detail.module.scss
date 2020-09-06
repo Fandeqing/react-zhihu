@@ -1,0 +1,65 @@
+.fullContentWrapper{
+
+    line-height: 1.67;
+
+    .voteCount{
+
+        color: #8590a6;
+        margin-top: 15px;
+        margin-bottom: -16px;
+    }
+    .voteCount:hover{
+        color: #76839b;
+    }
+    .fullContent{
+        margin-top: 9px;
+        margin-bottom: -4px;
+        word-break: break-word;
+        .ztext {
+            margin:1.4em 0;
+            & a.internal{
+                border-bottom: 1px solid grey;
+            }
+        }
+        a{
+            color: grey;
+            border-bottom: 1px solid grey;
+        }
+        p{
+            margin:1.4em 0;
+        }
+
+        & .LinkCard{
+            text-decoration: none;
+            border: none;
+            margin:1em 0;
+            border-radius: 12px;
+        }
+
+        & figure{
+            margin:1.4em 0;
+            
+            & img{
+                margin:0 auto;
+                max-width: 100%;
+                display: block;
+            }
+        }
+    }
+    .updateTime{
+        color: #8590a6;
+        margin-top: 10px;
+        cursor: pointer;
+
+        & a{
+            color: inherit;
+            border: none;
+            text-decoration: none;
+        }
+    &:hover{
+        border-bottom: 1px solid rgba(133,144,166,.72);
+
+    }
+    }
+
+}

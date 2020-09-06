@@ -1,0 +1,126 @@
+
+.hotItem{
+    padding: 16px 16px 16px 0;
+    background-color: #fff;
+    position: relative;
+    // border: 1px solid red;
+
+    display: flex;
+    .idx{
+        width: 57px;
+        text-align: center;
+        // border: 1px solid red;
+        
+        .rank{
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.6;
+        }
+        .hot{
+            color: #ff9607;
+        }
+    }
+
+    .content{
+        flex:1 1;
+        // height: 100px;
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+
+            .title{
+                line-height: 28px;
+                max-height: 80px;
+                color: #1a1a1a;
+                text-overflow: ellipsis;
+                font-weight: 600px;
+                font-size: 18px;
+            }
+
+            .excerpt{
+                min-height: 25px;
+                max-height: 50px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: normal;
+                color: #444;
+                line-height: 25px;
+                cursor: pointer;
+            }
+            .titleMultiLine{
+                max-height: 25px;
+            }
+        }
+
+        .hotBottom{
+            // position: absolute;
+            // bottom: 16px;
+            // height: 16px;
+            margin-top: 8px;
+            color: #8590a6;
+
+            display: flex;
+            align-items: center;
+
+            .icon{
+
+                font-size: 14px;
+                color: #8590a6;
+
+                svg{
+                    height: 18px;
+                    width: 18px;
+                    position: relative;
+                    top:3px;
+                }
+
+            }
+
+            .btn{
+                margin-left: 28px;
+                border: none;
+                background-color: transparent;
+                font-size: 14px;
+                color: #8590a6;
+
+                svg{
+                    position: relative;
+                    top:3px;
+                }
+            }
+        }
+    }
+
+    .thumbnail{
+        height: 105px;
+        margin-left: 16px;
+        position: relative;
+        display: block;
+
+        img{
+            object-fit: cover;
+            border-radius: 4px;
+            height: 105px;
+            width: 190px;
+        }
+    }
+    .emptyThumbnail{
+        height: 30px;
+        width: 0;
+    }
+
+    .thumbnail::after{
+        content: "";
+        border-radius: 4px;
+        height: 105px;
+        width: 190px;
+        position: absolute;
+        top:0;
+        left:0;
+        background-color: rgba(26,26,26,.05);
+    }
+
+
+
+}

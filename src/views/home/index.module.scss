@@ -1,0 +1,34 @@
+
+.home{
+    border: 1px solid transparent;
+    margin: 0 auto;
+    // margin-top: 52px;
+    background-color: #f6f6f6;
+    
+    .homeContainer{
+        // border: 1px solid pink;
+        height: 100vh;
+        width: 1000px;
+        padding:0 10px;
+        margin:10px auto;
+        background-color: #f6f6f6;
+
+        display: flex;
+        align-items: flex-start;
+
+        .mainContent{
+            width: 694px;
+            // border: 1px solid blue;
+            box-sizing: border-box;
+            margin-right: 10px;
+            box-shadow: 0 1px 3px rgba(26,26,26,.1);
+            background-color: #fff;
+            position: relative;
+        }
+
+    }
+
+    .globalSidebar{
+        flex: 1 1;
+    }
+}

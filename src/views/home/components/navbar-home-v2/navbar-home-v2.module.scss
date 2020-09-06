@@ -1,0 +1,25 @@
+
+.navBar{
+    // border: 1px solid pink;
+    height: 58px;
+    border-bottom: 1px solid #f0f2f7;
+
+    display: flex;
+
+    .link{
+        // border: 1px solid red;
+        color: #1a1a1a;
+        margin: 0 22px;
+        font-size: 16px;
+
+        display: flex;
+        align-items: center;
+    }
+    .active{
+        color: #0084ff;
+        font-weight: 500;
+
+    }
+
+    
+}

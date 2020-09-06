@@ -1,0 +1,42 @@
+
+.card{
+    padding: 16px 20px;
+    position: relative;
+}
+
+.answerItem{
+    font-size: 15px;
+
+    .answerBrief{
+        -webkit-mask-image: linear-gradient(#1a1a1a calc(100% - 8rem),transparent calc(100% - 2.8rem));
+        max-height: 400px;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .btn{
+        cursor: pointer;
+        outline: none;
+        position: absolute;
+        top: 330px;
+        background-color: transparent;
+        color:#175199;
+        border:none;
+        font-size: 15px;
+        width: 100%;
+
+        & span{
+            display: inline-flex;
+            align-items: center;
+        }
+    }
+
+    .btnHidden{
+        display: none;
+    }
+
+    .contentActions{
+        margin-bottom: -10px;
+    }
+
+}
