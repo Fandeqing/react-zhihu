@@ -1,8 +1,6 @@
 # react-zhihu
 仿写知乎web部分页面-PC端
 
-> 前端小白求内推 微信fandeqing0217
-
 ##
 本项目使用React16.13，JavaScript开发
 
